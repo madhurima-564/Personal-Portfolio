@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel = "stylesheet" href="P.css">
+    <script src="https://kit.fontawesome.com/aa72c9e542.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <!-- <a href="#" class="logo">Portfolio</a> -->
+        <div class="container">
+            <nav>
+                <img src="M.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skill">SKILLS</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Web Designer
+                </p>
+                <h1>
+                    Hi, I'm <br><span>Madhurima Bhaumik</span> <br>From Kolkata, West Bengal.
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Madhurima
+                    </h1>
+                    <p>
+                        <br>
+                        Welcome to my Portfolio Website!
+                        <br><br>
+                        As a dedicated and curious computer science engineering student, I am constantly exploring the ever-evolving landscape
+                        of technology. My passion for coding, problem-solving, and creating innovative solutions drives me to delve into various 
+                        domains within the field. From tackling complex algorithms to developing practical applications, I am committed to honing 
+                        my skills and pushing the boundaries of what's possible. With a solid foundation in programming languages like Python, 
+                        Java, and C++, along with hands-on experience in web development and software engineering, I am excited to share my 
+                        journey of growth and discovery. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab ('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab ('achievement')">Achievement</p>
+                        <p class="tab-links" onclick="opentab ('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Developer</span><br>Front-end developer with a knack for creating immersive digital <br>experiences 
+                                that seamlessly blend design and functionality</li>
+                            <li><span>Graphic Designer</span><br>Visual storyteller with a flair for translating ideas into captivating visuals </li>
+                            <li><span>Programmer</span><br> Dedicated programmer on a relentless quest to turn lines of code into <br>innovative solutions</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievement">
+                        <ul>
+                            <li><span>2021</span><br>Have done a comprehensive virtual training program <br>
+                                in front-end development with Ardent</li>
+                            <li><span>2023</span><br>Have successfully completed a one-month virtual <br>internship in Oasis Infobyte in Graphic Designing.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>AISSE - 2018 </span><br>Pranavananda Vidya Mandir<br>Scored: 9.5 CGPA</li>
+                            <li><span>AISSCE - 2020 </span><br>Pranavananda Vidya Mandir<br>Scored: 82%</li>
+                            <li><span>B.Tech - (2020- current) </span><br>Netaji Subhash Engineering College<br>Stream: Computer Science and Engineering<br>
+                                Scored: 9.1 CGPA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="skill">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-regular fa-window-restore"></i>
+                    <h2>Front-End Development</h2>
+                    <p><br>Front-end developer with a knack for creating immersive digital <br>experiences 
+                        that seamlessly blend design and functionality</p>
+                    <a href="#">Learn More.</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphic Designing</h2>
+                    <p><br>Visual storyteller with a flair for translating ideas into captivating visuals </p>
+                    <a href="#">Learn More.</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programmer</h2>
+                    <p><br>Dedicated programmer on a relentless quest to turn lines of code into <br>innovative solutions</p>
+                    <a href="#">Learn More.</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /*Portfolio*/ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+               My Work
+            </h1>
+            <div class="work-list">
+                <div>
+                    <h2>EMBRACE</h2>
+                    <p><br>Ecommerce Website<br>This is a simple Front-End web design using HTML, CSS and Javascript.<br>There is five different web pages,where you will find all the details<br>
+                    of an ecommerce website with a header and footer section.</p>
+                    <br><a href="#">Learn More.</a>
+                </div>
+                <div>
+                    <h2>EASY-PEASY</h2>
+                    <p><br>Simple Calculator<br>This is a simple calculator program impleented using Tkinter liberary in Python.<br>
+                    It provides a basic graphical user interface for performing arithmetic calculations.</p>
+                    <br>
+                    <a href="#">Learn More.</a>
+                </div>
+                <div>
+                    <a href="#"> See More.</a>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More.</a>
+        </div>
+    </div>
+
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                    Contact Me
+                </h1>
+                <p><i class="fa-solid fa-envelope"></i>
+                    &nbsp;Email: bhaumadhu789@gmail.com
+                </p>
+                <p><i class="fa-solid fa-phone"></i>
+                    &nbsp;Contact Number: 8787516166
+                 </p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></i></a>
+                </div>
+                <a href="Madhurima's Resume (1).pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Write Your Message Here..."></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Madhurima. Personal Portfolio Website</p>
+    </div>
+
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycbwFTN77i7ZJOfwmamWHT6hJOXI9aYTaFprlkHk9K_Mc9LJmXJCTihJY_pBzIoIoNTL0rw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e =>{
+        e.preventDefault()
+        fetch(scriptURL, {method: 'POST', body:new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
